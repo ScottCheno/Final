@@ -1,0 +1,96 @@
+html{ 
+    background: url(/IMG/forrest-bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+ul{
+    position: sticky;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(15, 70, 24);
+}
+li a{
+    font-family: offside;
+    color: white;
+    font-size: 21px;
+    display:block;
+    width: 80px;
+    height: 36px;
+    text-align: center;
+    padding: 25px 25px 0px 25px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: chartreuse;
+}
+li{
+    float: right;
+}
+ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.active {
+    background-color: #1e24209d;
+}
+.logo-image{
+    float: left;
+    opacity: 1;
+}
+.logo-image:hover{
+    opacity: .50;
+}
+.box1{
+    font-size: 65px;
+    font-family: offside;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+.h1{
+    text-align: left;
+    color: chartreuse;
+}
+.p1{
+    text-align: left;
+    color: white;
+    font-size: 45px;
+}
+.p2{
+    color: rgb(15, 70, 24);
+    text-decoration: none;
+    width: 30%;
+    padding: 10;
+    margin: 0;
+    text-align: center;
+    font-size: 40px;
+    background-color: chartreuse;
+}
+.p2:hover{
+    background-color: darkgreen;
+}
+a:link { 
+    text-decoration: none;
+}
+a:visited{
+     text-decoration: none;
+}
+a:hover{
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+}
+.contacth1{
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(0, 100, 0, 0.60);
+    width: 1880px;
+    height: 1500px;
+}
