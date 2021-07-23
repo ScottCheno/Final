@@ -94,3 +94,17 @@ a:hover{
     width: 1880px;
     height: 1500px;
 }
+.row{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+.column{
+    margin-top: 70px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: blue;
+    border: 5px solid white;
+}
