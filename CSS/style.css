@@ -94,17 +94,42 @@ a:hover{
     width: 1880px;
     height: 1500px;
 }
-.row{
+.footer-link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 28px;
+}
+footer{
+    background-color: #000;
+    height:200px;
     width: 100%;
-    display: table;
-    clear: both;
+    text-align:center;
+    position: relative;
+    margin-top: 500px;
 }
 .column{
-    margin-top: 70px;
-    box-sizing: border-box;
+    height: 200px;
+    width: 33.33%;
+    padding: 3%;
     float: left;
-    width: 50%;
-    height: 500px;
-    background-color: blue;
-    border: 5px solid white;
+    box-sizing: border-box;
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
 }
+.footer-link{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 28px;
+}
+.footer-cr{
+    color: #fff;
+    font-size: 18px;
+  }
+.footer-contact{
+    color: #fff;
+    font-size: 18px;
+    list-style-type: none;
+    line-height: 28px;
+  }
