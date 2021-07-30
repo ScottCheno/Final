@@ -7,12 +7,16 @@ html{
     background-attachment: fixed;
   }
 ul{
+    padding: 0;
     position: sticky;
     list-style: none;
     margin: 0px;
-    padding: 0px;
     overflow: hidden;
     background-color: rgb(15, 70, 24);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
 }
 li a{
     font-family: offside;
@@ -20,7 +24,7 @@ li a{
     font-size: 21px;
     display:block;
     width: 80px;
-    height: 36px;
+    height: 62px;
     text-align: center;
     padding: 25px 25px 0px 25px;
     text-decoration: none;
@@ -30,12 +34,6 @@ li a:hover{
 }
 li{
     float: right;
-}
-ul {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
 }
 .active {
     background-color: #1e24209d;
@@ -48,17 +46,18 @@ ul {
     opacity: .50;
 }
 .box1{
-    font-size: 65px;
     font-family: offside;
     position: absolute;
-    top: 15px;
+    top: 85px;
     left: 100px;
 }
 .h1{
+    font-size: 105px;
     text-align: left;
     color: chartreuse;
 }
 .p1{
+    top: 85px;
     text-align: left;
     color: white;
     font-size: 45px;
@@ -77,59 +76,58 @@ ul {
     background-color: darkgreen;
 }
 a:link { 
+    
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
 }
 a:visited{
-     text-decoration: none;
-}
-a:hover{
-    background-color: darkgreen;
     color: white;
-    text-decoration: none;
-}
-.contacth1{
+    padding: 14px 25px;
     text-align: center;
-    margin-top: 100px;
-    background-color: rgba(0, 100, 0, 0.60);
-    width: 1880px;
-    height: 1500px;
-}
-.footer-link{
-    color: #fff;
-    font-size: 18px;
     text-decoration: none;
-    line-height: 28px;
+    display: inline-block;
 }
 footer{
-    background-color: #000;
-    height:200px;
+    font-size: 18px;
+    color:chartreuse;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(15, 70, 24);
+    width: 1905px;
+    height: 80px;
+}
+input[type=text], select, textarea {
     width: 100%;
-    text-align:center;
-    position: relative;
-    margin-top: 500px;
-}
-.column{
-    height: 200px;
-    width: 33.33%;
-    padding: 3%;
-    float: left;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     box-sizing: border-box;
-    border-left: 5px solid #fff;
-    border-right: 5px solid #fff;
-}
-.footer-link{
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-    line-height: 28px;
-}
-.footer-cr{
-    color: #fff;
-    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
-.footer-contact{
-    color: #fff;
-    font-size: 18px;
-    list-style-type: none;
-    line-height: 28px;
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 100px;
   }
