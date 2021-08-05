@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/45338a0362.js" crossorigin="anonymous"></script>
     <title>Scott Chenoweth</title>
     <ul>
-        <div class="logo-image"><a href="index.html"><img src="IMG/Sclogo.png"></a></div>
+        <div class="logo-image"><a href="index.html"><img src="IMG/Sclogo.png" alt="Logo and Homepage button"></a></div>
         <li><a href="about.html">About</a></li>
         <li style="float: right;"><a class="active" href="contact.html">Contact</a></li>
         <li><a href="index.html">Home</a></li>
@@ -17,22 +17,23 @@
 </head>
 <body>
   <div class="container">
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <form action="mailto:scottiecheno@gmail.com" method="post" enctype="text/plain"></form>
+      <label for="fname">Your Name</label>
+      <input type="text" id="fname" name="Name" placeholder="Your name..">
   
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label for="lname">E-mail</label>
+      <input type="text" id="lname" name="E-mail" placeholder="Your e-mail..">
   
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write your message here.." style="height:200px"></textarea>
   
-      <input type="submit" value="Submit">
+      <input type="submit" value="Send">
+      <input type="reset"  value="Reset"
     </form>
   </div>
 </body>
 <footer>
   <p>Scott Chenoweth &copy;<br>
-  <a href="scottiecheno@gmail.com">scottiecheno@gmail.com</a></p>
+  <a href="mailto:scottiecheno@gmail.com">scottiecheno@gmail.com</a></p>
 </footer>
 </html>

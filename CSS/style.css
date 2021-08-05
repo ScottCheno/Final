@@ -8,7 +8,6 @@ html{
   }
 ul{
     padding: 0;
-    position: sticky;
     list-style: none;
     margin: 0px;
     overflow: hidden;
@@ -16,7 +15,7 @@ ul{
     top: 0;
     right: 0;
     width: 100%;
-    height: 80px;
+    height: 60px;
 }
 li a{
     font-family: offside;
@@ -24,9 +23,9 @@ li a{
     font-size: 21px;
     display:block;
     width: 80px;
-    height: 62px;
+    height: 60px;
     text-align: center;
-    padding: 25px 25px 0px 25px;
+    padding: 20px;
     text-decoration: none;
 }
 li a:hover{
@@ -40,26 +39,31 @@ li{
 }
 .logo-image{
     float: left;
+    position: fixed;
+    top: 5px;
     opacity: 1;
 }
 .logo-image:hover{
     opacity: .50;
 }
 .box1{
+    background-color: rgba(15, 70, 24, 0.699);
     font-family: offside;
     position: absolute;
-    top: 85px;
-    left: 100px;
+    top: 120px;
+    left: 30px;
+    bottom: 300px;
+    padding: 40px;
 }
 .h1{
     font-size: 105px;
     text-align: left;
-    color: chartreuse;
+    color: rgb(113, 226, 0);
 }
 .p1{
     top: 85px;
     text-align: left;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 45px;
 }
 .p2{
@@ -70,15 +74,13 @@ li{
     margin: 0;
     text-align: center;
     font-size: 40px;
-    background-color: chartreuse;
+    background-color: rgb(86, 172, 0);
 }
 .p2:hover{
     background-color: darkgreen;
 }
 a:link { 
-    
-    color: white;
-    padding: 14px 25px;
+    color: rgb(255, 255, 255);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -104,7 +106,7 @@ footer{
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -113,8 +115,8 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: rgb(75, 148, 3);
+    color: rgb(255, 255, 255);
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -122,12 +124,30 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: rgb(15, 70, 24);
   }
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #f2f2f259;
     padding: 20px;
     margin-top: 100px;
   }
+  .Scottimg{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    box-shadow: 0 0 0 5px rgb(15, 70, 24);
+  }
+  .box2{
+      word-spacing: .5px;
+      font-size: 25px;
+      padding: 30px;
+      color: white;
+      position: absolute;
+      left: 500px;
+      top: 175px;
+      margin-right: 400px;
+      background-color: rgba(15, 70, 24, 0.904);
+  }
+ 
